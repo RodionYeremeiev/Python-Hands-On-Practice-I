@@ -1,16 +1,11 @@
 # This is a sample Python script.
+import Identify_palindrome
+import find_prime_factors
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# To push/pull set {git config --global http.sslVerify false} and then back to true
 
+print(find_prime_factors.get_prime_factors(630))
+print(find_prime_factors.get_prime_factors(13))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(Identify_palindrome.is_palindrome('Hello World'))
+print(Identify_palindrome.is_palindrome('Go hang a salami, I\'m a lasagna hog.'))
